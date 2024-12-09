@@ -1,0 +1,48 @@
+.time {
+    font-size: 100x;
+    position: absolute;
+    padding: 1%;
+}
+
+.cardfim {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.row {
+    padding: 20px;
+}
+
+.text-monospace {
+    text-align: justify;
+    padding: 10%;
+}
+
+
+
+#titulo {
+    font-family: 'Times New Roman', Times, monospace;
+    height: 50px;
+    font-size: 50px;
+}
+
+#main {
+    padding: 1%;
+}
+
+@media (max-width: 768px) {
+    #cardfim {
+        margin: 10px;
+    }
+    .card-body {
+        font-size: 14px;
+    }
+
+    #titulo {
+        font-size: 30px;
+    }
+
+    #cardindex {
+        font-size: 20px;
+    }
+}
